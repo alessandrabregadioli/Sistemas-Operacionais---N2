@@ -27,7 +27,6 @@ int main(int argc, char **argv) {
             break;
         }
 
-        /* escrever em cada página para forçar o commit físico */
         memset(p, 0xA5, step_bytes);
 
         if (n == cap) {
