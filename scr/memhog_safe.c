@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
 
         printf("[OK] alocado: %6zu MB / %6zu MB\n", allocated / (1024*1024), target_bytes / (1024*1024));
         fflush(stdout);
-        usleep(200000); /* 0.2s só pra ir com calma e facilitar prints */
+        usleep(200000); 
     }
 
     printf("Pausa: pressione ENTER para liberar memória (ou Ctrl+C pra manter).\n");
