@@ -102,7 +102,6 @@ int main(void) {
     DIR *dir = opendir("/proc");
     if (!dir) { perror("opendir /proc"); return 1; }
 
-    /* 1) Snapshot BEFORE: pegar PIDs e uticks */
     Proc *procs = NULL; int cap = 1024, n = 0;
     procs = calloc(cap, sizeof(Proc));
     if (!procs) { perror("calloc"); closedir(dir); return 1; }
