@@ -6,7 +6,7 @@ Este repositório contém o código e a documentação para o **Trabalho N2 de S
 ### Estrutura do repositório
 A estrutura do repositório é organizada da seguinte forma:
 
-- **`docs/`**: Contém o PDF do relatório final do trabalho e outros   documentos relacionados.
+- **`docs/`**: Contém o PDF do relatório final do trabalho.
 - **`src/`**: Contém os arquivos de código fonte C para os exercícios realizados.
   - **`monitor.c`**: monitora o uso de CPU e memória dos processos em execução no sistema e alerta sobre processos que excedem limites de uso de CPU ou memória.
   - **`ipc_writer.c` e `ipc_reader.c`**: Códigos para comunicação entre processos (IPC) usando FIFO.
